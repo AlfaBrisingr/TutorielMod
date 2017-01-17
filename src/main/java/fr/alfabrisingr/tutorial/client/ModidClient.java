@@ -5,6 +5,9 @@ import fr.alfabrisingr.tutorial.ModidCommon;
 
 import java.io.File;
 
+/**
+ * Classe secondaire pour Initialisation du coté Client, nom recommandé "ClientProxy"
+ */
 public class ModidClient extends ModidCommon {
 
     @Override

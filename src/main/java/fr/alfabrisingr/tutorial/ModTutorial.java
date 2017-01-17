@@ -8,6 +8,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Classe Principale pour la création du mod. Définition du mod
+ */
 @Mod(modid = ModTutorial.MODID, name = ModTutorial.NAME, version = ModTutorial.VERSION)
 public class ModTutorial {
     public static final String MODID = "tutorial";
