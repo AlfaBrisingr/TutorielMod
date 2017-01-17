@@ -20,8 +20,8 @@ public class ModTutorial {
     @Instance(ModTutorial.MODID)
     public static ModTutorial instance;
 
-    @SidedProxy(clientSide = "fr.alfabrisingr.tutorial.client.ModidClient", serverSide = "fr.alfabrisingr.tutorial.server.ModidServer")
-    public static ModidCommon proxy;
+    @SidedProxy(clientSide = "fr.alfabrisingr.tutorial.client.ClientProxy", serverSide = "fr.alfabrisingr.tutorial.server.ServerProxy")
+    public static CommonProxy proxy;
 
     public static Logger logger;
 

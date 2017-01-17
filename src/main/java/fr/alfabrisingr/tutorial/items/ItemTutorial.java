@@ -1,4 +1,4 @@
-package fr.alfabrisingr.tutorial.item;
+package fr.alfabrisingr.tutorial.items;
 
 import net.minecraft.item.Item;
 

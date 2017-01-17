@@ -1,13 +1,13 @@
 package fr.alfabrisingr.tutorial.server;
 
-import fr.alfabrisingr.tutorial.ModidCommon;
+import fr.alfabrisingr.tutorial.CommonProxy;
 
 import java.io.File;
 
 /**
  * Classe secondaire pour l'initialisation du coté Serveur, nom recommandé "ServerProxy"
  */
-public class ModidServer extends ModidCommon {
+public class ServerProxy extends CommonProxy {
 
     @Override
     public void preInit(File configfile) {

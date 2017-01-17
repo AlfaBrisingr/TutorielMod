@@ -1,4 +1,4 @@
-package fr.alfabrisingr.tutorial.item;
+package fr.alfabrisingr.tutorial.items;
 
 import fr.alfabrisingr.tutorial.ModTutorial;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -10,14 +10,14 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 /**
- * Classe Principale pour les items. Création des item ici
+ * Classe Principale pour les items. Création des items ici
  */
-public class TutorialItem {
+public class TutorialItems {
 
     /**
      * Création d'un Item
      */
-    public static final Item TUTORIAL = new ItemTutorial().setUnlocalizedName("tutorial").setCreativeTab(CreativeTabs.tabMisc);
+    public static final Item TUTORIAL = new ItemTutorial().setUnlocalizedName("champi").setCreativeTab(CreativeTabs.tabMisc);
 
     /**
      * Fonction qui enregistre tous les items
@@ -29,7 +29,7 @@ public class TutorialItem {
 
 
     /**
-     * Fonction qui enregistre tous les item pour le Client, pour le mod Créatif
+     * Fonction qui enregistre tous les items pour le Client, pour le mod Créatif
      */
     @SideOnly(Side.CLIENT)
     public static void registerItemsModels()
