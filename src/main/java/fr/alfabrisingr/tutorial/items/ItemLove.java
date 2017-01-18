@@ -9,6 +9,6 @@ public class ItemLove extends Item
 {
     public ItemLove()
     {
-        this.maxStackSize = 1;
+
     }
 }

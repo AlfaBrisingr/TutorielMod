@@ -1,2 +1,7 @@
 item.loveitem.name=Heart
+item.helmet_love.name=Helmet Love
+item.chestplate_love.name=ChestPlate Love
+item.leggins_love.name=Leggins Love
+item.boots_love.name=Boots Love
+
 tile.love.name=Block Love

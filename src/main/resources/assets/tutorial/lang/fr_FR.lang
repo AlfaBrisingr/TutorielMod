@@ -1,2 +1,7 @@
 item.loveitem.name=Coeur
+item.helmet_love.name=Casque Coeur
+item.chestplate_love.name=Torse Coeur
+item.leggins_love.name=Jambières Coeur
+item.boots_love.name=Chaussures Coeur
+
 tile.love.name=Block Amour
