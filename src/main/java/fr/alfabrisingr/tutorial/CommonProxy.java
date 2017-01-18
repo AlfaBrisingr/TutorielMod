@@ -13,6 +13,7 @@ public class CommonProxy {
     public void preInit(File configfile){
         BlocksRegistry.registerBlocks();
         ItemsRegistry.registerItems();
+        ModRecipes.registerRecipes();
     }
 
     public void init(){
