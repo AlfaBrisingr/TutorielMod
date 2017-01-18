@@ -1,7 +1,7 @@
 package fr.alfabrisingr.tutorial.client;
 
-import fr.alfabrisingr.tutorial.blocks.TutorialBlocks;
-import fr.alfabrisingr.tutorial.items.TutorialItems;
+import fr.alfabrisingr.tutorial.blocks.BlocksRegistry;
+import fr.alfabrisingr.tutorial.items.ItemsRegistry;
 import fr.alfabrisingr.tutorial.CommonProxy;
 
 import java.io.File;
@@ -14,8 +14,8 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void preInit(File configfile) {
         super.preInit(configfile);
-        TutorialBlocks.registerBlocksModels();
-        TutorialItems.registerItemsModels();
+        BlocksRegistry.registerBlocksModels();
+        ItemsRegistry.registerItemsModels();
     }
 
     @Override

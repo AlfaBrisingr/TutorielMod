@@ -12,19 +12,19 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 /**
  * Classe Principale pour les items. Création des items ici
  */
-public class TutorialItems {
+public class ItemsRegistry {
 
     /**
      * Création d'un Item
      */
-    public static final Item TUTORIAL = new ItemTutorial().setUnlocalizedName("champi").setCreativeTab(CreativeTabs.tabMisc);
+    public static final Item LOVE = new ItemLove().setUnlocalizedName("loveitem").setCreativeTab(CreativeTabs.tabMisc);
 
     /**
      * Fonction qui enregistre tous les items
      */
     public static void registerItems()
     {
-        GameRegistry.registerItem(TUTORIAL, "tutorial_item");
+        GameRegistry.registerItem(LOVE, "love_item");
     }
 
 
@@ -34,6 +34,6 @@ public class TutorialItems {
     @SideOnly(Side.CLIENT)
     public static void registerItemsModels()
     {
-        ModelLoader.setCustomModelResourceLocation(TUTORIAL, 0, new ModelResourceLocation(ModTutorial.MODID + ":tutorial_item", "inventory"));
+        ModelLoader.setCustomModelResourceLocation(LOVE, 0, new ModelResourceLocation(ModTutorial.MODID + ":love_item", "inventory"));
     }
 }

@@ -5,9 +5,9 @@ import net.minecraft.item.Item;
 /**
  * Classe Spécifique à créer pour chaque nouveaux items
  */
-public class ItemTutorial extends Item
+public class ItemLove extends Item
 {
-    public ItemTutorial()
+    public ItemLove()
     {
         this.maxStackSize = 1;
     }

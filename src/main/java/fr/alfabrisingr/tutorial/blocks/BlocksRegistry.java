@@ -14,7 +14,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 /**
  * Created by Océane on 17/01/2017.
  */
-public class TutorialBlocks {
+public class BlocksRegistry {
 
     public static final Block LOVE = new BlockLove(Material.rock).setUnlocalizedName("love").setCreativeTab(CreativeTabs.tabBlock).setHardness(5.0F).setResistance(10.0F);
 

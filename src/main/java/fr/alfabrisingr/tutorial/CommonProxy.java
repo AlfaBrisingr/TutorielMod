@@ -1,7 +1,7 @@
 package fr.alfabrisingr.tutorial;
 
-import fr.alfabrisingr.tutorial.blocks.TutorialBlocks;
-import fr.alfabrisingr.tutorial.items.TutorialItems;
+import fr.alfabrisingr.tutorial.blocks.BlocksRegistry;
+import fr.alfabrisingr.tutorial.items.ItemsRegistry;
 
 import java.io.File;
 
@@ -11,8 +11,8 @@ import java.io.File;
 public class CommonProxy {
 
     public void preInit(File configfile){
-        TutorialBlocks.registerBlocks();
-        TutorialItems.registerItems();
+        BlocksRegistry.registerBlocks();
+        ItemsRegistry.registerItems();
     }
 
     public void init(){
